@@ -1,0 +1,5 @@
+3. Why do you think linked-list requires more memory than an array when storing the same number of elements?
+
+Ans: In a linked-list, each element (node) contains both a value and a reference to the next element in the list. In contrast, an array stores its elements contiguously in memory, so each element only requires enough memory to store its value.
+
+Additionally, in a linked-list, for each element you need to store the reference to the next element and this reference is stored as a memory address. This memory address takes up extra space in memory.
