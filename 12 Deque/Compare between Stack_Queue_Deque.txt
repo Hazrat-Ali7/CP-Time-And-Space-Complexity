@@ -1,0 +1,19 @@
+Stack, Queue, and Deque are all abstract data types used in computer science and programming. Here are some key differences between them:
+
+    1.Stack:
+        A Last-In-First-Out (LIFO) data structure.
+        Elements are added and removed from the top of the stack only.
+        Common operations include push (adding an element to the top of the stack) and pop (removing the top element from the stack).
+        Example: undo/redo operations, function call stack.
+
+    2.Queue:
+        A First-In-First-Out (FIFO) data structure.
+        Elements are added at the back (enqueue) and removed from the front (dequeue) of the queue only.
+        Common operations include enqueue (adding an element to the back of the queue) and dequeue (removing the front element from the queue).
+        Example: printing jobs, message queue.
+
+    3.Deque:
+        A double-ended queue that allows insertion and removal from both ends.
+        Can function as both a stack and a queue depending on how elements are added or removed.
+        Common operations include push/pop from both ends and enqueue/dequeue from both ends.
+        Example: sliding window algorithm, implementing LRU cache.
